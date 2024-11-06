@@ -42,9 +42,10 @@ createRoot(document.getElementById('root')).render(
       // <MyApp/> esse direct function likh sakte hai
       // <reactElement/>
       //function execute hota hai par yeh object hai
-      //ReactElement//donot expect object therefore not working error
+      //ReactElement//key:value nahi chalegi error
       //another_element
       // reactElement
+      //babel inject this elment
       <App/>
     }
   </StrictMode>,
